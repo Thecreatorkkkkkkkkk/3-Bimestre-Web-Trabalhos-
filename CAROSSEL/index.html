@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEC IFMT</title>
+</head>
+
+<body>
+    <!--Seção do vídeo -->
+    <div id="secaovideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cOGGQT4vPRs?si=4ZjOmHJ58ghZC0WT"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+
+
+        <div id="titulodovideo">
+            <h1 class="dexter">Playboi Carti drop the your new single,Evil Jordan</h1>
+
+            <p id="texto">Playboi Carti is a rapper very influent for the trap,<br> he's the rapper that introduced the opium style in the rap.<br>"Evil Jordan" is a track from the his album, "I am the Music" </p>
+        </div>
+    </div>
+    <!-- Seção do carossel -->
+
+    <div id="carossel">
+        <h1 id="play">Playboi Carti has more than 50 millions of listeners in the Spotify</h1>
+
+        <!--Divisão de card-->
+
+        <div id="cards">
+            <img id="setaesquerda" class="seta" onclick="deslizarparaesquerda()" src="setaesquerda.svg">
+
+            <img id="leonardo" class="card" src="Leonardo.svg">
+
+            <img id="samantha" class="card" src="Samantha.svg">
+            <img id="Bruna" class="card" src="Bruna.svg">
+
+            <img id="setadireita" onclick="deslizarparadireita()"  class="seta" src="setadireita.svg">
+
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
